@@ -41,6 +41,8 @@ h2 {
 p {
     height: 70px;
     width: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 img {
