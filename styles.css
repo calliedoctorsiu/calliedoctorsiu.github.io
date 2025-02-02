@@ -1,1 +1,58 @@
 
+header {
+    font-family: Copperplate, Papyrus, fantasy;
+    position: absolute;
+    top: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.topleft {
+    position: absolute;
+    top: 50px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.topp {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    height: 500px;
+    width: 845px;
+}
+
+h2 {
+    height: 90px;
+    width: 65px;
+}
+p {
+    height: 70px;
+    width: 45px;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
+
+img2 {
+    width: 120px;
+    height: 120px;
+}
+section {
+    padding: 10px;
+}
+
+p.small {
+    line-height: 0.4;
+}
+
+p.big {
+    line-height: 2;
+}
