@@ -8,6 +8,7 @@ header {
 }
 body  {
     width : 725px;
+    background-color: '#99AEAE'
     
 }
 .container {
@@ -48,6 +49,12 @@ p {
 img {
     width: 120px;
     height: 120px;
+    border-color:'#273C76';
+    box-shadow-color:'#27272A';
+    border: 5px ;
+    border-radius : 10px 20px 0px 20px;
+    box-shadow: 3px 3px 4px 4px;
+
 }
 
 img2 {
