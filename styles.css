@@ -3,8 +3,13 @@ header {
     font-family: Copperplate, Papyrus, fantasy;
     position: absolute;
     top: 0;
+    margin : 10px;
+    
 }
-
+body  {
+    width : 725px;
+    
+}
 .container {
     position: relative;
 }
@@ -25,11 +30,13 @@ header {
 h1 {
     height: 500px;
     width: 845px;
+    padding : 10 px;
 }
 
 h2 {
     height: 90px;
     width: 65px;
+    padding : 10 px;
 }
 p {
     height: 70px;
