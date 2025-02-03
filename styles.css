@@ -59,8 +59,7 @@ figcaption {
 }
 footer {
   padding: 20px;
-  outline: 5px solid black;
-  text-align: center;
+  outline: 10px solid black;
 }
 p.small {
     line-height: 0.4;
