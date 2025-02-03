@@ -6,6 +6,9 @@ header {
     margin : 10px;
     
 }
+background-color{
+    background:#B0C4DE;
+}
 .container {
     position: relative;
 }
@@ -27,8 +30,9 @@ img {
     height: 50px;
 }
 body  {
-    width : 725px;
+    font-family: Copperplate, Papyrus, fantasy;
     background:#001f3f;
+    width : 725px;
 }
 body-img {
     border: 5px solid blue;
@@ -56,9 +60,10 @@ figcaption {
 }
 
 footer {
-  padding: 20px;
-  outline: 10px solid black;
-  margin: 10px 50px 20px; 
+    padding-bottom: .75em;
+    border-bottom: 3px solid black;
+    margin-bottom: 0;
+
 }
 p.small {
     line-height: 0.4px;
