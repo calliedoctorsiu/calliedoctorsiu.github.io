@@ -6,9 +6,7 @@ header {
     margin : 10px;
     
 }
-preach {
-    background: hsl(289, 52%, 45%);
-}
+.bg-gray { background-color: #AAAAAA; }
 img {
     width: 50px;
     height: 50px;
@@ -72,7 +70,7 @@ p {
 }
 footer {
     height : 50px;
-    padding: 10px;
+    padding: 100px;
     
 }
 p.small {
