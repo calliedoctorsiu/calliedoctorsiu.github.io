@@ -7,9 +7,7 @@ header {
     
 }
 body  {
-    width : 725px;
-    
-    
+    width : 725px; 
 }
 meow {
     background: rgb(153, 174, 174);
@@ -72,7 +70,7 @@ p.big {
     line-height: 2;
 }
 
-figure {
+figurebackground {
     figure-width: 120px; 
     figure-height: 120px; 
     background-position: center;
