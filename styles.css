@@ -46,11 +46,6 @@ h1 {
     width: 845px;
     padding : 10 px;
 }
-trying {
-  outline-width: 10px;
-  padding: 15px;
-}
-
 h2 {
     height: 90px;
     width: 65px;
@@ -84,5 +79,9 @@ p.small {
 
 p.big {
     line-height: 2;
+}
+trying {
+  outline-width: 10px;
+  padding: 15px;
 }
 
