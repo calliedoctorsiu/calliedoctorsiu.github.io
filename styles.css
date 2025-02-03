@@ -6,9 +6,11 @@ header {
     margin : 10px;
     
 }
+preach {
+    background: hsl(289, 52%, 45%);
+}
 body  {
     width : 725px;
-    background: hsl(289, 52%, 45%);
 }
 figurebackground {
     figure-width: 120px; 
