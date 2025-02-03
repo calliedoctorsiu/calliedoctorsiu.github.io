@@ -38,7 +38,7 @@ body  {
 }
 body-img {
     border: 5px solid blue;
-    border-radius: 10px;
+    img-shadow: 3px 3px 5px rgba(60, 60, 60);
 }
 h1 {
     height: 500px;
@@ -62,7 +62,7 @@ figcaption {
 }
 
 footer {
-    padding-bottom: .75em;
+    padding: .5em 0 .25em;
     border-bottom: 3px solid black;
     margin-bottom: 0;
 
