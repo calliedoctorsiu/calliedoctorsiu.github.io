@@ -8,7 +8,7 @@ header {
 }
 body  {
     width : 725px;
-    background: #99AEAE
+    background: rgb(153, 174, 174);
     
 }
 .container {
@@ -49,17 +49,13 @@ p {
 img {
     width: 120px;
     height: 120px;
-    border: 3px solid #273C76;
-    border-radius: 5x; 
-    box-shadow: 3px 3px 0px 4px #27272A; 
+
 }
 
 img2 {
     width: 120px;
     height: 120px;
-    border: 3px solid #273C76;
-    border-radius: 5x; 
-    box-shadow: 3px 3px 0px 4px #27272A
+
 }
 section {
     padding: 10px;
@@ -72,3 +68,11 @@ p.small {
 p.big {
     line-height: 2;
 }
+
+figure {
+    width: 300px; 
+    height: 300px; 
+    background-position: center;
+    border-radius: 10px; 
+    box-shadow: 0 0 50px 20px rgb(131, 129, 129); 
+    margin: 20px;
