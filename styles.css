@@ -6,11 +6,11 @@ header {
     margin : 10px;
     
 }
-body  {
-    width : 725px; 
-}
 meow {
     background: rgb(153, 174, 174);
+}
+body  {
+    width : 725px; 
 }
 .container {
     position: relative;
