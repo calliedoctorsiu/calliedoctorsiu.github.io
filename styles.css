@@ -57,9 +57,13 @@ figcaption {
 footer {
   padding: 20px;
   outline: 10px solid black;
+    margin-top:20px;
+    margin-right:200px;
+    margin-bottom:20px;
+    margin-left:200px;
 }
 p.small {
-    line-height: 0.4;
+    line-height: 0.4px;
 }
 
 p.big {
