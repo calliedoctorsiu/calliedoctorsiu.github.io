@@ -6,9 +6,6 @@ header {
     margin : 10px;
     
 }
-meow {
-    background: rgb(153, 174, 174);
-}
 body  {
     width : 725px; 
 }
@@ -60,8 +57,11 @@ img2 {
 }
 section {
     padding: 10px;
+    
 }
-
+meow {
+    background: rgb(153, 174, 174);
+}
 p.small {
     line-height: 0.4;
 }
