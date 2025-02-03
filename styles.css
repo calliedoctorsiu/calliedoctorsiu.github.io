@@ -16,6 +16,8 @@ figurebackground {
     figure-width: 120px; 
     figure-height: 120px; 
     background-position: center;
+}
+figureshadow {
     border-radius: 10px; 
     box-shadow: 0 0 50px 20px rgb(131, 129, 129); 
     margin: 20px;
