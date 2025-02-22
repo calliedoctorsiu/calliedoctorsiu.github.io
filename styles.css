@@ -2,32 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 html {
-    background-color: white;
+    background-color: #D6D6D6;
+    height: 100%;
 }
 body {
-    border: solid 5px #000000;
+    margin:0;
+    border: solid 5px #111A2C;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 100%;
-    height:max-content;
-    width: auto;
-    border-width: 10px; 
+    height:fill;
+    width: max;
+
 }
-.column {
-	margin: 10px 10px 10px 10px;
-    float: left;
-    width: 30%;
-    padding: 10px 10px 10px 10px;
-    height: 300px;
+.width-25 {
+    width:25%;
+    float:left;
 }
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+center {
+  margin: auto;
+  border: 3px solid #73AD21;
+  padding: 10px;
 }
 nav{
-    background-color: #333;
+    display:flexbox;
+    border:2px;
+    border-bottom: 10px ;
+    background-color: #17233B;
     align-content: center;
     position: -webkit-sticky;
     opacity: 90%;
@@ -41,65 +44,83 @@ ul {
 }
 li {
     float: left;
-    display: cen
+
 }
-.logo {
-    float: none;
-    position: absolute;
-    top: 4.5%;   
-    left: 50%;
-    transform: translate(-50%, -50%); 
+logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 20px 16px 20px 16px;
+    padding: 20px 20px 20px 20px;
     text-decoration: none;
+    border: 2px solid #0A0A0A;
 }
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #1D2C49;
 }
 
 .active {
-    background-color: #04AA6D;
+    background-color: #C2DFFF;
 }
+
+
 #header{
-    width:904px;
+    width:fill;
     height:76px;
+    
+}
+main {
+    margin:0;
+    border: solid 5px #111A2C;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    height:fill;
+    width: max;
 }
 #h1{
     font-size: 30;
+}
+.banner {
+    width: max-content;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-bottom: 20px;
+    justify-content: center;  
     
 }
-#banner{
-    width:max-content;
-    border-right: solid 5px #000000;
+.bannerimg {
+    display: block;
+    max-inline-size: 100%;
 }
-.baned {
-    width : 100%;
+.flex-container {
     display: flex;
-    overflow: hidden;
+    flex-wrap: wrap; 
+    justify-content: center;
+    flex: 1 1 200px;
 }
-columZone {
-    width:904px;
-    padding-bottom: 20px;
+.flex-container > div {
+    background-color: #fff6ed;
+    color: white;
+    width: 35%;
+    margin:10px 20px 40px 20px;
+    line-height: 350px;
+    font-size: 30px;
+    border: 1px solid #1D2C49;
+    
 }
-#container2{
-    width:650px;
-    padding:40px 0px 40px 0px;
-    float:left;
+.product-name a {
+	color: #232b33;
+	text-decoration: none;
+	font-size: 17px;
 }
-.column1 {
-	width:226px;
-	float:left;
-	padding:0px ;
-	margin:0px ;
-	text-align:center;
-}
-.columnText {
-    text-align:left;
-    padding:10px 0px 0px 46px;
+.product-price {
+	margin-top:15px;
 }
 .columnLink{
     text-align:center;
@@ -127,16 +148,67 @@ text-align:center{
 .column2 {
 	width:226px;
 	float:left;
-	padding:0px 0px 0px 0px;
-	margin:0px 0px 0px 0px;
 	text-align:center;
 }
 .welCome{
     width:650px; float:left;
     background:#4564A7;
 }
+footer {
+    justify-content: space-evenly;
+    background: #232f3e;
+    padding:1%;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    border:solid 20px #232f3e;
+    
+}
+h3{
+    font-size: 20px;
+    text-decoration: bold;
+    color: black;
+}
+a:link {
+  text-decoration: #111A2C;
+}
+
+a:visited {
+  text-decoration: #000000;
+}
+.kolumn {
+    float: left;
+    width: 25%;
+    padding: 2px 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.kow {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.kow:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 3%;
+}
 
 .bottom_container{float:left; width:904px}
 #footer{width:904px; float:left; border-top:2px solid #bfbfbf}
 
-
+@media screen and (max-width: 40em) {
+	.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+	}
+}
+.kard {
+    width:max;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 30px 30px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
