@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>P2TM</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styler.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a class="active" href="#shop">Bikes</a></li>
+                <li><a href="/accessories.html">Swag</a></li>
+                <li><a href="/accessories.html">Services</a></li>
+                <li class="logo"><img src="images/logo.jpg" alt="logo" width= "50px"  height= "50px">
+                <li style="float:right"><a href="cart.html">Cart</a></li>
+                </ul></nav>
+        
+        <header>
+            <div class=".banner">
+                <div class =".banner-img">
+                    <img src ="images/shopscene.jpg" alt ="epic" width = "max-content"></div></div>
+        </header>   
+        
+        <main>
+            <div class="flex-container">
+                <div class="product-item">
+                    <div class="down-content"><div class="down-content bg">
+                        <a href="#"><img src="images/trackbike.jpg" alt=""></a></div>
+                        <a href="#"><h4>PRICE</h4></a>
+                        <div class="down-content note">
+                        <h6>$NAME</h6>
+                        </div></div></div>
+                
+            <div class="product-item">
+                <div class="down-content"><div class="down-content bg">
+                    <a href="#"><img src="/images/manbike.jpg" alt=""></a></div>
+                    <a href="#"><h4>PRICE</h4></a>
+                    <div class="down-content note">
+                    <h6>$NAME</h6>
+                    </div></div></div>
+            <div class="product-item">
+                    <div class="down-content"><div class="down-content bg">
+                        <a href="#"><img src="/images/orangebike.jpg" alt=""></a></div>
+                        <a href="#"><h4>PRICE</h4></a>
+                        <div class="down-content note">
+                        <h6>$NAME</h6>
+                        </div></div></div>
+            <div class="product-item">
+                    <div class="down-content"><div class="down-content bg">
+                        <a href="#"><img src="/images/otherbike.jpg" alt=""></a></div>
+                        <a href="#"><h4>PRICE</h4></a>
+                        <div class="down-content note">
+                        <h6>$NAME</h6>
+                    </div></div>
+                </div></div>
+        </main>
+      
+        <footer>
+        <div class="kow">
+        <div class="kolumn">
+        <div class="kard">
+        <h3>Account Detail</h3>
+        <a href="#"><p>About us</p></a>
+        <a href="#"><p>Search</p></a>
+        <a href="#"><p>Cart</p></a>
+        <a href="#"><p>Checkout</p></a>
+        </div></div>
 
+        <div class="kolumn">
+        <div class="kard">
+        <h3>Quick Links</h3>
+		<a href="#"><p>Change Password</p></a>
+		<a href="#"><p>Order History</p></a>
+        <a href="#"><p>My Whislist</p></a>
+        <a href="#"><p>My Cashback</p></a>
+        </div></div>
+  
+        <div class="kolumn">
+        <div class="kard">
+        <h3>Contact us</h3>
+        <a href="#"><p>WEBSITE: </p></a>
+        <a href="#"><p>E-MAIL: </p></a>
+        <a href="#"><p>CONTACT NO:</p><p>1-(123)-456-7890</p></a>
+        </div></div>
+  
+        <div class="kolumn">
+        <div class="kard">
+        <h3>Socials</h3>
+    
+      
+        </div></div></div>
+    </footer> 
+   </body>
+</html>
