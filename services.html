@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>P2TM | Biking Experts</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/footer.css">
+        <link rel="stylesheet" href="style/nav.css"> 
+    </head>
+    <body>
+        <div class="hero_area">
+        <header class="header_section">
+        <nav class="navbar">
+            <div class="navbar-collapse" id="navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Shop</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="accessories.html">Swag</a></li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="services.html">Services</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item logo-item">
+                    <a class="logo-item" href="index.html">
+                <img src="/images/logo.jpg" alt="PTTM Logo" class="logo" /></a></li>
+            <li class="nav-right">
+                <a class="nav-link" href="cart.html">Cart</a></li></ul></div></nav>
+
+            <button class="burger-icon" type="button" onclick="toggleDropdown()">
+                <img src="/images/burger.png" alt="Menu Button">
+            </button>
+            <div id="dropdown-content" class="dropdown-content">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="accessories.html">Swag</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="services.html">About Us</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </div>
+        </header>
+    </div>
+
+    <script>
+        function toggleDropdown() {
+            const dropdownContent = document.getElementById('dropdown-content');
+            dropdownContent.classList.toggle('show');
+        }
+
+        window.addEventListener('click', function (e) {
+            const dropdownContent = document.getElementById('dropdown-content');
+            const burgerIcon = document.querySelector('.burger-icon');
+
+            if (!burgerIcon.contains(e.target) && !dropdownContent.contains(e.target)) {
+                dropdownContent.classList.remove('show');
+            }
+        });
+    </script>
+            <main class="main">
+                <h2>Services and Rentals</h2>
+                <p><i>SERVICES ONLY APPLY TO P2TM CERTIFIED BIKING EQUIPMENT</i></p>
+                <table>
+                  <tr>
+                    <th>Rental Bikes</th>
+                    <th>Price/hrs</th>
+                  </tr>
+                  <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Maria Anders</td>
+                  </tr>
+                  <tr>
+                    <td>Centro comercial Moctezuma</td>
+                    <td>Francisco Chang</td>
+                  </tr>
+
+                  <tr>
+                    <td colspan="2" style="height: 40px;"></td>
+                  </tr>
+                  <tr>
+                    <th>Other Services</th>
+                    <th>Price(varies)</th>
+                  </tr>
+                  <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Maria Anders</td>
+                  </tr>
+                  <tr>
+                    <td>Centro comercial Moctezuma</td>
+                    <td>Francisco Chang</td>
+                  </tr>
+                </table>
+            </main>
+
+  <footer>
+        <div class="kow">
+            <div class="kolumn">
+                <div class="kard">
+                    <h3>Account Detail</h3>
+                    <a href="contact.html"><p>About us</p></a>
+                    <a href="#"><p>Search</p></a>
+                    <a href="cart.html"><p>Cart</p></a>
+                    <a href="#"><p>Checkout</p></a>
+                </div>
+            </div>
+
+            <div class="kolumn">
+                <div class="kard">
+                    <h3>Quick Links</h3>
+                    <a href="#"><p>Change Password</p></a>
+                    <a href="#"><p>Order History</p></a>
+                    <a href="#"><p>My Wishlist</p></a>
+                    <a href="contact.html"><p>Customer Support</p></a>
+                </div>
+            </div>
+
+            <div class="kolumn">
+                <div class="kard">
+                    <h3>Socials</h3>
+                    <div class = " .img-grid">
+                    <img src="/images/fb.png" alt="facebook" height="55px" style="img-grid img">
+                    <img src="/images/insta.png" alt="instagram" height="50px" style="img-grid img">
+                    <br>
+                    <img src="/images/youtube.png" alt="youtube" height="60px" style="img-grid img">
+                    <img src="/images/twitter.png" alt="twitter" height="50px" style="img-grid img">
+                </div></div>
+            </div>
+
+            <div class="kolumn">
+                <div class="kard">
+                    <h3>Contact us</h3>
+                    <a href="contact.html"><p>Get our newsletter!</p></a>
+                    <a href="#"><p>Call us!</p><p>1-(123)-456-7890</p></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+   </body>
+</html>
