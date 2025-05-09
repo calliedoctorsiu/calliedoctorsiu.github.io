@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+    min-height: 100vh;
+    justify-content: center;
+    border-right: solid 3px #1E2948;
+    border-left: solid 3px #1E2948;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin: 3em;
+    flex-direction: column;
+    padding: 1em;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 6%;
+    width: 93%;
+}
+
+section {
+    z-index: 4;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 3%;
+    background-color: #ffffff;
+    width: 90%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 1000px;
+    justify-content: center;
+    align-self: center;
+}
+
+section p {
+    padding: 2% 2% 0 2%;
+}
+
+.saving_section {
+    justify-self: center;
+
+}
+
+.saving_section .box {
+    padding: 0 4% 4% 5%;
+    background-color: #A5B6B1;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+
+.saving_section .detail-box {
+    padding: 0 6%; 
+}
+
+.saving_section .detail-box p {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.saving_section .detail-box .btn-box {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.saving_section .detail-box .btn-box a {
+    width: 165px;
+    text-align: center;
+    margin: 1%;
+    text-decoration: none;
+    line-height: 2.5rem;
+}
+
+.saving_section .detail-box .btn-box .btn1 {
+    background-color: #0E100F;
+    color: #ffffff;
+    border-radius: 0;
+    transition: all .3s;
+    border: none;
+}
+
+.saving_section .detail-box .btn-box .btn1:hover {
+    background-color: transparent;
+    border: 1px solid #0E100F;
+    color: #0E100F;
+}
+
+.saving_section .detail-box .btn-box .btn2 {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #0E100F;
+    border-radius: 0;
+    transition: all .3s;
+    text-decoration: none;
+}
+
+.saving_section .detail-box .btn-box .btn2:hover {
+    background-color: transparent;
+    color: #0E100F;
+}
